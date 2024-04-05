@@ -14,7 +14,7 @@
   overflow: hidden; /* Las imagenes se ajustan */
   width: calc(33% - 20px); /* Adjustar por margins and gutters */
 
-  @media (max-width: $mqMedWidth) {
+  @include respond-to("medium") {
     width: 100%; /* Las cards usan todo el ancho */
   }
 
