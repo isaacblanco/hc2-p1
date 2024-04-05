@@ -3,5 +3,7 @@
     "posthtml-include": {
       "root": "./src"
     }
-  }
+  },
+  "removeComments": true,
+  "minifySvg": false
 }

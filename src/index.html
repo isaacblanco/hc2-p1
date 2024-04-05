@@ -1,27 +1,99 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+        <!-- do not remove this line! -->
+        <title>Prague :: a city of beauty</title>
+    </head>
+    <body>
+        <include src="./views/header.html"></include>
+
+        <main class="main">
+            <section id="introduction" class="section">
+                <h2 class="section__h2">Introduction</h2>
+                <p class="section__p">
+                    Welcome to Prague! This city, known as "the city of a
+                    hundred spires", is the capital of the Czech Republic.
+                    Prague's architecture is a great testament to its richness
+                    and beauty. It is known for being the center of the
+                    country's rich history thanks to its magnificent baroque
+                    buildings, medieval Astronomical Clock and Gothic churches.
+                </p>
+            </section>
+
+            <include src="./views/points-of-interest.html"></include>
+
+            <section id="facts" class="section">
+                <h2 class="section__h2">12 Interesting facts</h2>
+                <ol type="I">
+                    <li>
+                        Charles Bridge is one of the most famous landmarks in
+                        Prague. Charles IV laid the foundation stone of this
+                        famous monument at 5:31 am on July 9, 1357 due to his
+                        superstition with numerology.
+                    </li>
+                    <li>
+                        Prague Castle is the largest castle in the world, with
+                        more than 700 rooms.
+                    </li>
+                    <li>
+                        The Golden Alley in Prague Castle is a very curious
+                        place. In its colorful little houses lived first the
+                        permanent guard of the castle and then goldsmiths
+                        craftsmen.
+                    </li>
+                    <li>
+                        The Czech Republic is the country where the most beer is
+                        drunk per capita.
+                    </li>
+                    <li>
+                        The Rolling Stones paid for the lighting system of
+                        Prague Castle.
+                    </li>
+                    <li>
+                        John Lennon is very present in Prague although he was
+                        never there.
+                    </li>
+                    <li>
+                        The historic center of Prague was not bombed during
+                        World War II, so the monuments and buildings we see are
+                        the original ones.
+                    </li>
+                    <li>
+                        Prague is one of the 20 most visited cities in the
+                        world.
+                    </li>
+                    <li>
+                        The Old Town Square contains several curiosities of
+                        Prague, including the decoration of the facade of some
+                        of its buildings.
+                    </li>
+                    <li>Prague is known as the city of 100 towers.</li>
+                    <li>
+                        The Prague Zoo sells "elephant urine", which is actually
+                        a herbal liqueur.
+                    </li>
+                    <li>
+                        The city was founded by the duchess and prophetess
+                        Libuše and her husband, Přemysl, in the 8th century
+                        according to a legend.
+                    </li>
+                </ol>
+            </section>
+        </main>
+
+        <!--
+        <i class="far fa-address-book"></i>
+        -->
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+        <!-- do not remove this line! -->
+    </body>
 </html>
