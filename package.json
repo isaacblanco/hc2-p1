@@ -1,8 +1,8 @@
 {
-  "name": "uoc-boilerplate",
+  "name": "hc2-p1",
   "version": "3.8.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "Pec P1 - Html y CSS II - 2024s2",
   "scripts": {
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
+    "url": "git+https://github.com/isaacblanco/hc2-p1.git"
   },
   "author": {
     "name": "Jordi Tarrida",
@@ -32,9 +32,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uoc-advanced-html-css/uoc-boilerplate/issues"
+    "url": "https://github.com/isaacblanco/hc2-p1/issues"
   },
-  "homepage": "https://github.com/uoc-advanced-html-css/uoc-boilerplate#readme",
+  "homepage": "https://github.com/isaacblanco/hc2-p1#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.11.0",
     "autoprefixer": "^10.4.15",
